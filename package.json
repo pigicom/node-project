@@ -1,0 +1,27 @@
+{
+  "name": "puzzle-match",
+  "version": "0.0.0",
+  "description": "",
+  "main": "socket-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pigicom/nodejs"
+  },
+  "keywords": [
+    "puzzle"
+  ],
+  "author": "pigicom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pigicom/nodejs/issues"
+  },
+  "homepage": "https://github.com/pigicom/nodejs",
+  "dependencies": {
+    "express": "~3.4.8",
+    "http": "0.0.0",
+    "socket.io": "~0.9.16"
+  }
+}
