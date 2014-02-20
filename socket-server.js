@@ -2,7 +2,7 @@
 
 
  var http = require('http');
- var io   = require('socket.io').(process.env.OPENSHIFT_INTERNAL_PORT;); //8081
+ var io   = require('socket.io').listen(process.env.OPENSHIFT_INTERNAL_PORT;);
  //var gcm  = require('node-gcm'); 
  								 
  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
